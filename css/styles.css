@@ -36,3 +36,14 @@ header h2 {
     background-color: #901cad;
 }
 
+/* input, select {
+    display:table-cell; width:100%;
+}
+
+input[type="date"]::before{
+    color: #999;
+    content: attr(placeholder) ": ";
+}
+input[type="date"]:focus::before {
+    content: "" !important;
+} */
