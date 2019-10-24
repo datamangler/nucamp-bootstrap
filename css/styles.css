@@ -42,7 +42,9 @@ header h2 {
     padding: 10px;
 }
 
-
+.stu-cont { border: solid blue; }
+.stu-row { border: solid yellow; }
+.stu-col { border: solid lightgreen; }
 
 /* input, select {
     display:table-cell; width:100%;
