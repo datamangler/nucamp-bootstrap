@@ -1,4 +1,4 @@
-$color-primary: #3046c5;
+$color-primary: orange;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901cad;
@@ -14,7 +14,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046c5;
+    color: $color-primary;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
     color: white;
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .navbar {
-    background-color: #901cad;
+    background-color: $color-mid;
 }
 
 .tab-content {
@@ -57,7 +57,7 @@ header {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid $color-secondary;
 }
 
 #carouselButton {
